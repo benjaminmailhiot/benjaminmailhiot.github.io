@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="fr-CA">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Page introuvable sur le site MailhiotInc.">
+    <title>404 — Page introuvable | MailhiotInc</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="page-shell error-page-shell">
+        <header class="site-header">
+            <a class="brand" href="/" aria-label="MailhiotInc, accueil">
+                <span class="brand-mark" aria-hidden="true">&lt;/&gt;</span>
+                <span>Mailhiot<span class="brand-suffix">Inc</span></span>
+            </a>
+            <div class="header-status"><span class="status-dot" aria-hidden="true"></span>Erreur de routage</div>
+        </header>
+
+        <main class="error-main">
+            <section class="error-content" aria-labelledby="error-title">
+                <p class="eyebrow"><span class="eyebrow-line"></span> Erreur 404</p>
+                <h1 id="error-title">Cette page a<br><em>planté.</em></h1>
+                <p class="intro">L’adresse demandée n’existe pas, ou elle s’est déconnectée avant d’arriver. Même les
+                    meilleures connexions ont parfois besoin d’un redémarrage.</p>
+                <p class="error-joke"><span class="error-joke-mark" aria-hidden="true">//</span> Pourquoi l’ordinateur
+                    est-il allé chez le technicien?<br><strong>Parce qu’il avait un virus... et le moral à
+                        zéro.</strong></p>
+                <a class="button button-primary" href="/">Retourner à l’accueil <span aria-hidden="true">↗</span></a>
+            </section>
+
+            <div class="error-visual" aria-hidden="true">
+                <div class="error-code">404</div>
+                <div class="terminal-window">
+                    <div class="terminal-bar"><span></span><span></span><span></span><b>mailhiotinc://not-found</b>
+                    </div>
+                    <div class="terminal-body"><span class="terminal-prompt">&gt;</span> ping page<br><span
+                            class="terminal-muted">réponse: introuvable_</span></div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="site-footer">
+            <p>© <span id="current-year">2026</span> MailhiotInc</p>
+            <p>Québec · Canada</p>
+            <a href="mailto:info@mailhiotinc.com">info@mailhiotinc.com</a>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
